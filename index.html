@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><!--简体中文-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/><!--浏览器兼容性-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--viewport为了确保适当的绘制和触屏缩放。user-scalable=no禁用缩放功能后，
+    用户只能滚动屏幕，就能让你的网站看上去更像原生应用的感觉。-->
+    <title>We视频</title>
+<link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="css/demo3.css" />
+    <!--wow.min.js和animate.css组合使用-->
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <!--导航条 默认导航条  固定在顶部-->
+<div class="container">
+  <!--小屏幕导航以及Logo-->
+  <div class="navbar-header">
+  <a href="index.html" class="navbar-brand">We视频</a>
+  </div>
+  <!--小屏幕导航以及Logo-->
+  <!-- 搜索栏 -->
+ <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="输入片名、主演、或导演">
+            </div>
+            <button type="submit" class="btn btn-success"><span class=" glyphicon glyphicon-search"></span>搜索</button>
+        </form>
+  <!--导航-->
+
+  <div class="navbar-collapse collapse">
+    <ul class="nav navbar-nav navbar-right">
+      <!--navbar-right 向右对齐导航栏中的组件。-->
+      <li><a href="#selected">精选</a></li>
+      <li><a href="#tv">电视剧</a></li>
+      <li><a href="#movie">电影</a></li>
+      <li><a href="#variety">综艺</a></li>
+      <li><a href="#comic">动漫</a></li>
+      <li><a href="#app">动画</a></li>
+      <li><a href="#about">关于我们</a></li>
+    </ul>
+  </div>
+  <!--导航-->
+</div>
+</nav>
+<!--home-->
+<section id="selected">  <!--section区段-->
+  <div class="lvjing">
+    <div class="container">
+      <div class="row wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s" data-wow-iteration="1">
+        <!--给使用对象添加class="wow animate"  animate是http://daneden.github.io/animate.css/网站里面的效果
+        可用属性data-wow-duration（动画持续时间）  data-wow-delay（动画延迟时间）data-wow-offset（偏移量）
+        本动画距离可视区域多远开始执行动画     data-wow-iteration="10"(重复次数)-->
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+          <!-- 轮播图 -->
+         <div id="myCarousel" class="carousel slide">
+    <!-- 轮播（Carousel）指标 -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <!-- 轮播（Carousel）项目 -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="images/轮播图1.png" alt="First slide">
+            <div class="carousel-caption">三生三世十里桃花</div>
+        </div>
+        <div class="item"><></>
+            <img src="images/轮播图2.png" alt="Second slide">
+            <div class="carousel-caption">钢铁侠2</div>
+        </div>
+        <div class="item">
+            <img src="images/轮播图3.png" alt="Third slide">
+            <div class="carousel-caption">夺宝熊兵</div>
+        </div>
+    </div>
+    <!-- 轮播（Carousel）导航 -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+<!-- 轮播结束 -->
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--home-->
+<!--bbs-->
+<section id="tv">
+    <div class="container">
+      <div class="row wow swing" data-wow-duration="2s" data-wow-delay="1s">
+        <div class="col-md-4">
+          <a href="https://v.qq.com/x/search/?q=%E6%88%91%E4%BB%AC%E4%B8%8E%E6%81%B6%E7%9A%84%E8%B7%9D%E7%A6%BB&stag=2&smartbox_ab=1073741824" alt="" target="_blank">
+            <div class="bigimg">
+          <img src="images/电视剧1.png"  class="img-responsive "  alt="秦时明月图">
+        </div>
+          <h3>我们与恶的距离</h3>
+          <p> 到底什么是好人，什么是坏人，有标准答案吗？ 这是由一场无差别杀人事件，延伸出的几个家庭间，不同立场，不同参与者的故事…… </p>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="https://v.qq.com/x/search/?q=%E9%83%BD%E6%8C%BA%E5%A5%BD&stag=0&smartbox_ab=" alt="" target="_blank">
+            <div class="bigimg">
+          <img src="images/电视剧2.png"  class="img-responsive "  alt="秦时明月图">
+        </div>
+          <h3>都挺好</h3>
+          <p>表面上无限风光的苏家，随着苏母的突然离世，瞬间分崩离析。意想不到的隐患层层显露，对毫无主见却又自私、小气的苏父的安置和后续生活问题，打破了远在国外的大哥与本城的二哥、小妹三家的平静生活 </p>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="https://v.qq.com/x/search/?q=%E7%AD%91%E6%A2%A6%E6%83%85%E7%BC%98&stag=0&smartbox_ab=" alt="" target="_blank">
+            <div class="bigimg">
+          <img src="images/电视剧3.png"  class="img-responsive "  alt="秦时明月图">
+        </div>
+          <h3>筑梦情缘</h3>
+          <p>二十世纪二十年代初，乱世中少年沈其南一家忽遭飞来横祸。父亲因无意间卷入走私阴谋而被杀害，母亲在逃亡中蒙难，兄妹四人历经艰险逃到上海却不幸离...</p>
+          </a>
+        </div>
+      </div>
+    </div>
+</section>
+<!--bbs-->
+
+<!--people-->
+<section id="movie">
+  <div class="container">
+    <div class="col-md-12">
+        <h2>电影</h2>
+      </div>
+    <div class="col-md-6 wow fadeInLeft">
+    <h3>何以为家</h3>
+    <p><span class="glyphicon glyphicon-bell detail"></span>该片原名《迦百农 》</p>
+    <!--可以去网站https://v3.bootcss.com/组件里面找一个图标名称复制过来即可。-->
+    <p><span class="glyphicon glyphicon-bell detail"></span>电影《何以为家》在国内上映后,获得了极大的关注,电影中国版宣传海报上,影片的主人公,也就是小男孩赞恩面露微笑</p>
+  </div>
+  <div class="col-md-6 wow rotateIn">
+   <a href="https://v.qq.com/x/search/?q=%E4%BD%95%E4%BB%A5%E4%B8%BA%E5%AE%B6&stag=0&smartbox_ab=">
+
+    <img src="images/电影.png" class="img-responsive "  alt="何以为家">
+
+  </a>
+  </div>
+
+  </div>
+</section>
+<!--people-->
+
+<!--baifeng-->
+<section id="variety">
+
+  <div class="container wow zoomIn">
+    <div class="col-md-12">
+        <h2>综艺</h2>
+      </div>
+    <div class="col-md-6 ">
+      <a href="https://www.mgtv.com/h/328606.html?cxid=95kqkw8n6">
+
+        <img src="images/综艺.png" class="img-responsive "  alt="密室大逃脱">
+
+      </a>
+    </div>
+  <div class="col-md-6 ">
+
+    <h3>密室大逃脱</h3>
+
+    <p><span class="glyphicon glyphicon-bell detail"></span>《密室大逃脱》是一种实景解密体验秀</p>
+    <!--可以去网站https://v3.bootcss.com/组件里面找一个图标名称复制过来即可。-->
+    <p><span class="glyphicon glyphicon-bell detail"></span>由杨幂、邓伦、魏大勋、黄明昊、谢依霖、张国伟组成“密逃六子。</p>
+  </div>
+  </div>
+</section>
+<!--baifeng-->
+
+<section id="comic">
+  <div class="container">
+    <div class="row wow wobble" >
+      <div class="col-md-12">
+        <h2>动漫</h2>
+      </div>
+      <div class="col-md-3">
+        <div class="course" align="center" ><!--让图片与按钮居中-->
+          <div class="bigimg">
+          <img src="images/动漫1.png" class="img-responsive " alt="">
+          </div>
+          <a href="#" class="btn btn-primary" target="_blank"  role="button">
+            <!--.btn    为按钮添加基本样式  .btn-primary 原始按钮样式（未被操作）-->
+            <!--role属性告诉辅助设备（如屏幕阅读器）这个元素所扮演的角色。增强组件的可访问性、可用性和可交互性-->
+            点击观看
+          </a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="course" align="center" >
+          <div class="bigimg">
+          <img src="images/动漫2.png" class="img-responsive " alt="">
+          </div>
+          <a href="#" class="btn btn-primary" target="_blank"  role="button">
+            点击观看
+          </a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="course" align="center" >
+          <div class="bigimg">
+          <img src="images/动漫3.png" class="img-responsive " alt="">
+          </div>
+          <a href="#" class="btn btn-primary" target="_blank"  role="button">
+            点击观看
+          </a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="course" align="center" >
+          <div class="bigimg">
+          <img src="images/动漫4.png" class="img-responsive " alt="">
+          </div>
+          <a href="https://neets.cc/detail/5sjshAn5GWQoN7hFxjpazj" class="btn btn-primary" target="_blank"  role="button">
+            点击观看
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!--app-->
+<section id="app">
+  <div class="container">
+    <div class="row  ">
+      <div class="col-md-6 wow tada "data-wow-iteration="2" data-wow-delay="1s">
+        <h2>秦时明月之君临天下往季信息</h2>
+        <p>
+          网络动画《秦时明月之君临天下》是由沈乐平执导，杭州玄机科技信息技术有限公司出品的中国3D武侠动画《秦时明月》系列的第五部作品。
+          动画讲述了天明、少羽、石兰三人误打误撞登上了停泊在海边的蜃楼后开始了奇幻莫测的探险逃亡之旅的故事  。
+        </p>
+        <button class="btn btn-primary">
+          <span class="glyphicon glyphicon-download-alt"></span>
+          <a href="http://www.llduang.com/91790.html">迅雷地址</a>
+        </button>
+        <button class="btn btn-primary">
+          <span class="glyphicon glyphicon-download-alt"></span>
+          <a href="https://zhidao.baidu.com/question/1696491878823702668.html">网盘地址</a>
+        </button>
+      </div>
+      <div class="col-md-6 wow jello">
+        <div class="bigimg">
+        <img src="images/动画.png" class="img-responsive " alt=""/>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--app-->
+
+<!--contact-->
+<section id="about">
+  <div class="lvjing">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6  wow fadeInLeft">
+          <h2>
+            <span class="glyphicon glyphicon-send"></span>
+            &nbsp;
+            We视频
+          </h2>
+          <p>
+          we视频是we旗下最新的移动端视频网站;提供各种高清视频,热门电影,经典大片,热播电视剧,最新综艺...
+          </p>
+          <address>
+            <p>
+              <span class="glyphicon glyphicon-home"></span>
+              &nbsp;
+              地址:广东机电职业技术学院
+            </p>
+            <p>
+              <span class="glyphicon glyphicon-phone-alt"></span>
+              &nbsp;
+              联系电话：18312702729
+            </p>
+            <p>
+              <span class="glyphicon glyphicon-envelope"></span>
+              &nbsp;
+              邮箱:1937871222@qq.com
+            </p>
+          </address>
+        </div>
+        <div class="col-md-6  wow fadeInRight" >
+          <form action="#" method="post" role="form">
+            <!--当提交表单时，发送表单数据到名为 "#" 的文件-->
+                      <!--Bootstrap 表单  向父 <form> 元素添加 role="form"。
+                      把标签和控件放在一个带有 class .form-group 的 <div> 中。这是获取最佳间距所必需的。
+                      向所有的文本元素 <input>、<textarea> 和 <select> 添加 class ="form-control" 。
+                      placeholder 属性提供可描述输入字段预期值的提示信息（hint）。
+                      该提示会在输入字段为空时显示，并会在字段获得焦点时消失。-->
+                          <div  class="col-md-6">
+                              <input type="text" class="form-control" placeholder="您的姓名"/>
+                          </div>
+                          <div class="col-md-6">
+                              <input type="email" class="form-control" placeholder="您的邮箱"/>
+                          </div>
+                          <div class="col-md-12">
+                              <input type="text" class="form-control" placeholder="标题"/>
+                          </div>
+                          <div class="col-md-12">
+                              <textarea class="form-control" placeholder="留言内容" rows="4"></textarea>
+                            <!--想要显示placeholder里面的内容，中间必须不能有内容-->
+                          </div>
+                          <!--<textarea> 标签定义一个多行的文本框。文本区域中可容纳无限数量的文本
+           可以通过 cols 和 rows 属性来规定 textarea 的尺寸大小，不过更好的办法是使用 CSS 的 height 和 width 属性。-->
+                          <div class="col-md-8">
+                              <input type="submit" class="form-control" value="提交"/>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!--contact-->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <p>
+         we视频，我们大家的好视频
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+<!--suppress JSUnresolvedLibraryURL -->
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!--js的下载和执行可能影响主页的内容。script标签放在body底部，不会影响首屏时间-->
+<!--放到body结束标签的末尾，无需担心因页面未完成加载，造成DOM节点获取不到，使脚本报错的问题
+而且能避免因脚本运行缓慢造成页面卡死的问题。-->
+<script src="js/jquery.singlePageNav.min.js"></script>
+<script src="https://cdn.bootcss.com/wow/1.1.2/wow.min.js"></script>
+
+<script>
+  /* $就是jquery对象，$()就是jQuery()，在里面可以传参数，作用就是获取元素*/
+  /* $.function();就是 选取 JQuery 定义的 function() 执行*/
+  /* jquery里面的$有查找，选取的意思,如$("#test")就是选取id为test的对象*/
+
+  $(function(){
+    new WOW().init();
+    $('#myCarousel').carousel({interval:2000});
+  })
+</script>
+
+</body>
+</html>
